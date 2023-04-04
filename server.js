@@ -1,9 +1,7 @@
-// Dependencies.
 var express = require('express');
 var http = require('http');
 var path = require('path');
 var socketIO = require('socket.io');
-
 var app = express();
 var server = http.Server(app);
 var io = socketIO(server);
